@@ -1,0 +1,76 @@
+:root {
+    --brand-color: #819B57;
+    --primary-color-dark: #31261A;
+    --primary-color-light: #FAF4EA;
+}
+
+/* відключаємо дкфолтну розмітку списків */
+
+ul {
+    list-style-type: none;
+}
+
+/* задаємо мейн колір для всього тексту */
+body {
+    color: var(--primary-color-dark);
+}
+
+/* дефолтні налаштування кнопка */
+.button {
+    color: white;
+    background-color: var(--brand-color);
+    border: 2px solid var(--brand-color);
+    border-radius: 8px;
+    cursor: pointer;
+    width: 238px;
+    height: 59px;
+}
+
+/* кнопка при наведенні на неї */
+.button:hover {
+    background-color: transparent;
+    color: #465929;
+}
+
+/* кнопка при фокусі(за допомогою TAB) */
+.button:focus {
+    background-color: transparent;
+    color: #465929;
+}
+
+/* налаштування поведінки кнопки піля натискання */
+.button:active {
+    color: white;
+    background-color: var(--brand-color);
+}
+
+/* колір ссилок в навігації */
+.link {
+    color: var(--primary-color-light);
+}
+
+/* поведінка ссилок при наведенні курсора */
+.link:hover {
+    color: var(--brand-color);
+}
+
+/* основний колір заголовка h1 */
+.hero-title {
+    color: var(--primary-color-light);
+}
+
+/* додаємо вторичний колір бренду */
+.hero-title .accent {
+    color: var(--brand-color);
+}
+
+/* додаємо колір фону та колір тексту для списку переваг у 1 секції */
+.advatages-list {
+    background-color: var(--brand-color);
+    color: var(--primary-color-light);
+}
+
+/* додаємо брендовий колір до тексту (про шеф кухарів)*/
+.section-title .accent {
+    color: var(--brand-color);
+}
