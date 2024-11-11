@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сучасна пекарня</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="./css/styles.css">
 </head>
@@ -35,17 +40,25 @@
         </section> <!-- Секции(блоки) сайта с информацией  -->
         <section id="traditions-section">
             <h2 class="section-title">Новий формат традицій</h2>
-            <p><span>shop bakery</span> — це пекарня, яка взяла все найкраще, і зберегла смак
+            <p class="tradition-text"><span class="brand">shop bakery</span> — це пекарня, яка взяла все найкраще, і
+                зберегла смак
                 традиційної випічки та
                 натуральність
                 інгредієнтів.</p>
+
+            <p class="tradition-text">Ми працюємо як найвідоміші мережі—
+                <span class="order-time">5 хвилин і замовлення готове.</span>
+                А ще у наших пекарень стильний дизайн
+                та висока якість обслуговування!
+            </p>
+
             <img src="./images/Mask-group.svg" alt="">
         </section>
         <section id="chefs-section">
             <h2 class="section-title">Наші найкращі
                 <span class="accent">шеф -кухарі</span>
             </h2>
-            <ul>
+            <ul class="cookers">
                 <li>
                     <article> <!-- Информация которая может переиспользоваться -->
                         <h3>Настя</h3>
@@ -69,20 +82,33 @@
         </section>
         <section id="format-section">
             <h2 class="section-title">Формати</h2>
-            <ul>
+            <ul class="formats">
                 <li>
                     <article>
                         <h3 lang="en">Walrus</h3>
+                        <p class="formats-text">Площа: до 120 м2</p>
+                        <p class="formats-text">Меню: розширене меню</p>
+                        <p class="formats-text">Штат: 2 продавці-касири, 2 пекарі, 2 помічники пекаря, 2
+                            офіціанти-різнороби</p>
+                        <p class="formats-text">Посадкові місця: є</p>
                     </article>
                 </li>
                 <li>
                     <article>
                         <h3 lang="en">Horseshoe</h3>
+                        <p class="formats-text">Площа: до 25 м2</p>
+                        <p class="formats-text">Меню: найпопулярніші позиції меню</p>
+                        <p class="formats-text">Штат: 2 продавці-касири, 2 пекарі, 1 помічник пекаря</p>
+                        <p class="formats-text">Посадкові місця: відсутні</p>
                     </article>
                 </li>
                 <li>
                     <article>
                         <h3 lang="en">Handlebar</h3>
+                        <p class="formats-text">Площа: до 15 м2</p>
+                        <p class="formats-text">Меню: найпопулярніші позиції меню</p>
+                        <p class="formats-text">Штат: 1 продавець, 1 пекар, 1 помічник пекаря</p>
+                        <p class="formats-text">Посадкові місця: відсутні</p>
                     </article>
                 </li>
             </ul>
@@ -110,16 +136,16 @@
         </nav>
         <address>
             <ul>
-                <li><a href="tel:+380960000007">+ 38 (096) 000 00 07</a></li>
-                <li><a href="mailto:shopbakery@gmail.com">shopbakery@gmail.com</a></li>
-                <li><a href="https://g.co/kgs/5XKZH3S" target="_blank">Україна, м. Київ,
+                <li><a class="link" href="tel:+380960000007">+ 38 (096) 000 00 07</a></li>
+                <li><a class="link" href="mailto:shopbakery@gmail.com">shopbakery@gmail.com</a></li>
+                <li><a class="link" href="https://g.co/kgs/5XKZH3S" target="_blank">Україна, м. Київ,
                         вул. Січових Стрільців 54</a></li>
 
                 <li><a href="@">Facebook ico</a></li>
                 <li><a href="@">Instagram ico</a></li>
             </ul>
-            <a href="#">Політика конфіденційності</a>
-            <p>&copy; 2022 Дані захищені</p>
+            <a class="link" href="#">Політика конфіденційності</a>
+            <p class="license">&copy; 2022 Дані захищені</p>
         </address>
     </footer>
 </body>
